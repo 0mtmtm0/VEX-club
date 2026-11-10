@@ -1,0 +1,13 @@
+# 统一换行符处理：仓库内存 LF，检出时按平台转换
+* text=auto
+
+# 二进制文件不做换行符转换
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary
+*.zip binary
+*.bin binary
+*.elf binary
